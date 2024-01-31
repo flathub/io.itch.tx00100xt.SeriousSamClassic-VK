@@ -24,7 +24,7 @@ modules:
       - -DCMAKE_BUILD_TYPE=RelWithDebInfo
     post-install:
       - install -Dm 644 io.itch.tx00100xt.SeriousSamClassic-VK.metainfo.xml -t /app/share/metainfo
-      - install -Dm 644 io.itch.tx00100xt.SeriousSamClassic-VK.png -t /app/share/icons/hicolor/128x128/apps/
+      - install -Dm 644 io.itch.tx00100xt.SeriousSamClassic-VK.png -t /app/share/icons/hicolor/256x256/apps/
     sources:
       - type: archive
         url: https://github.com/tx00100xt/SeriousSamClassic-VK/archive/refs/tags/1.10.6d.tar.gz
