@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright 2024 Alexander Pavlov -->
+<!-- Copyright 2025 Alexander Pavlov -->
 
 <component type="desktop">
   <id>io.itch.tx00100xt.SeriousSamClassic-VK</id>
@@ -15,7 +15,6 @@
   <url type="help">https://github.com/tx00100xt/SeriousSamClassic-VK/wiki</url>
   <url type="bugtracker">https://github.com/tx00100xt/SeriousSamClassic-VK</url>
 
-  <launchable type="desktop-id">io.itch.tx00100xt.SeriousSamClassic-VK.desktop</launchable>
   <launchable type="desktop-id">io.itch.tx00100xt.SeriousSamClassic-VK.SE.desktop</launchable>
 
   <description>
@@ -61,8 +60,18 @@
   </content_rating>
 
   <releases>
-    <release version="1.10.6d" date="2024-01-17"/>
+    <release version="1.10.7" date="2025-02-02">
+      <description>
+        <p>Updated release package to SeriousSamClassic-VK 1.10.7</p>
+        <p>Added borderless mode for all resolutions</p>
+        <p>Added large font to Netricsa for high resolutions</p>
+        <p>Added the ability to switch to Legacy Hud</p>
+      </description>
+    </release>
+    <release version="1.10.6d" date="2024-01-17">
+      <description>
+        <p>First release of SeriousSamClassic-VK on Flatpak</p>
+      </description>
+    </release>
   </releases>
-
 </component>
-
